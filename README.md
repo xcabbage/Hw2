@@ -5,6 +5,7 @@ library(data.table)
 library(ggplot2)
 setwd('C:/Users/KaposztassyG/Documents/_CEU/R/RHF/')
 df <- read.xlsx('mtcars.xlsx') 
+df <- read.xlsx('https://bit.ly/mtcars-csv')
 
 #1.Load the content of the https://bit.ly/mtcars-csv CSV file and save as  df  (check the variable names in the manual of  mtcars )
 #2.Transform  df  to a  data.table  object
